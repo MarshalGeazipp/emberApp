@@ -6,10 +6,6 @@
 	"default_locale": "en",
 	"type": "privileged", 
 	"permissions": {
-		"contacts": {
-		  "description": "Required for autocompletion in the share screen",
-		  "access": "readcreate"
-		},
 		"alarms": {
 		  "description": "Required to schedule notifications"
 		},
