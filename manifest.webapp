@@ -1,0 +1,18 @@
+{
+	"version": "0.1",
+	"name": "EmberApp",
+	"description": "My Awesome Webapp with Ember.js",
+	"launch_path": "/",
+	"default_locale": "en",
+	"type": "privileged", 
+	"permissions": {
+		"contacts": {
+		  "description": "Required for autocompletion in the share screen",
+		  "access": "readcreate"
+		},
+		"alarms": {
+		  "description": "Required to schedule notifications"
+		},
+		"geolocation"
+	}
+}

@@ -1,0 +1,11 @@
+<h2>Users (ID - Name)</h2>
+
+<ul class="nav nav-tabs nav-stacked">
+  {{#each user in users}}
+  <li>
+    {{#linkTo 'users.show' user}}{{user.id}} - {{user.fullName}}{{/linkTo}}
+  </li>
+  {{/each}}
+</ul>
+
+{{#linkTo 'users.new' class='btn btn-primary'}}Create{{/linkTo}}

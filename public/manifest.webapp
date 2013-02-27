@@ -1,0 +1,7 @@
+{
+	"version": "0.1",
+	"name": "EmberApp",
+	"description": "My Awesome Webapp with Ember.js",
+	"launch_path": "/",
+	"default_locale": "en"
+}
